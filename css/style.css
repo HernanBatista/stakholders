@@ -1,0 +1,227 @@
+@keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+}
+
+@keyframes topback {
+    from { transform: translateY(0px); }
+    to   { transform:translateY(10px); }
+}
+
+@keyframes leftright {
+    from { left: 10%; }
+    to   { left: 75%; }
+}
+
+ul{
+    font-family: "Roboto";
+    letter-spacing: 0.2px;
+}
+
+
+.boxs {
+    box-shadow: -1px 1px 20px 2px #000000;
+}
+
+.logo{
+    background: url(../images/logo-metalico.png);
+    width: 58px;
+    background-size: cover;
+    height: 58px;
+}
+
+h1{
+    font-family: "Roboto";
+}
+
+#navd h1{
+    font-size: 1.5rem;
+    color: #eeae20;
+    line-height: 18px;
+}
+
+h2{
+    font-family: "Raleway";
+}
+
+#navd h2{
+    font-size: 0.9rem;
+    line-height: 0px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 2px;
+    font-variant-caps: all-petite-caps;
+    text-align: center;
+}
+
+.top{
+    width: 100%;
+    background: url("https://s2.glbimg.com/_wgueKz4A90wIdtmb6EwNmqNR98=/940x523/e.glbimg.com/og/ed/f/original/2019/04/12/blockchain.jpg") no-repeat;
+    background-color: #040404;
+    background-blend-mode: color-dodge;
+    background-position: center;
+    padding-top: 50px;
+}
+
+.top h1{
+    color: #eeae20;
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.top h2{
+    font-family: 'Raleway';
+    color: #e5e5e5;
+    font-size: 1.4rem;
+}
+
+.zid100{
+    z-index: 100;
+}
+
+.logo2{
+    background: url(../images/logo-metalico.png) no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    margin-bottom: -120px;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.lr{
+    margin-right: 12px;
+    background: #f3f3f3;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.lastcol{
+    height: 160px;
+}
+.lastcol2{
+    align-self: end;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+
+    animation: 2s ease-in-out 1s infinite alternate topback;
+}
+
+#tsec h3{
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+#steps .col{
+    height: 200px;
+    width: auto;
+    padding: 20px;
+}
+
+.colst{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 8px 10px 14px -9px #d3d3d3;
+    padding: 15px;
+    background: linear-gradient(
+45deg, #eeae20, #fcff71);
+}
+
+.ic{
+    border-radius: 100%;
+    background: #fdfdfd;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 26px;
+    color: #eeae20;
+    margin: 5px auto 15px;
+}
+
+#steps{
+    z-index: 100;
+    position: relative;
+}
+
+.test{
+    margin-top: -170px;
+}
+
+.gif{
+    background: url("../images/g2.gif");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: relative;
+    left: 10%;
+    z-index: 1;
+
+    animation: 4s ease-out 2s infinite alternate leftright;
+}
+
+/* MENU HOVER START */
+
+.snip1135 {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    font-weight: 300;
+  }
+  .snip1135 * {
+    box-sizing: border-box;
+  }
+  .snip1135 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 0.4em;
+    padding: 0;
+  }
+  .snip1135 a {
+    padding: 0.5em 0;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .snip1135 a:before,
+  .snip1135 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1135 a:before {
+    bottom: 0;
+    display: block;
+    height: 3px;
+    width: 0%;
+    content: "";
+    background-color: #000000;
+  }
+  .snip1135 a:after {
+    left: 0;
+    top: 0;
+    padding: 0.4em 0;
+    position: absolute;
+    content: attr(data-hover);
+    color: #000000;
+    white-space: nowrap;
+    max-width: 0%;
+    overflow: hidden;
+  }
+  .snip1135 a:hover:before,
+  .snip1135 .current a:before {
+    opacity: 1;
+    width: 100%;
+  }
+  .snip1135 a:hover:after,
+  .snip1135 .current a:after {
+    max-width: 100%;
+  }
+
+/* END */
